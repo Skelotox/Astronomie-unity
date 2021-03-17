@@ -625,7 +625,7 @@ MonoBehaviour:
   b: 50
   h: 1
   k: 0
-  theta: 0
+  theta: 95
   resolution: 100
   TargetObject: {fileID: 0}
 --- !u!120 &990846693
@@ -678,7 +678,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.31292534
+        value: 0.115644455
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -686,8 +686,8 @@ LineRenderer:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.994012
-        value: 0.3197279
+        time: 1
+        value: 0.122447014
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -746,12 +746,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c20de9ecc8bde41b5ed3a66a8071a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spin: 0
-  spinParent: 0
-  speed: 100
-  clockwise: 1
-  direction: 1
-  directionChangeSpeed: 2
 --- !u!1001 &1075392665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1014,7 +1008,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0.0059890747
-        value: 0.2925167
+        value: 0.115644455
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1022,8 +1016,8 @@ LineRenderer:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.99101794
-        value: 0.292517
+        time: 1
+        value: 0.12924796
         inSlope: 0
         outSlope: 0
         tangentMode: 0

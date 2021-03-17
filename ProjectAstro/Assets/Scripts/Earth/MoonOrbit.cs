@@ -39,7 +39,7 @@ public class MoonOrbit : MonoBehaviour
      }
      Vector3[] CreateEllipse(float a, float b, float h, float k, float theta, int resolution) {
          positions = new Vector3[resolution+1];
-         Quaternion q = Quaternion.AngleAxis (theta, Vector3.forward);
+         Quaternion q = Quaternion.AngleAxis (theta, (Vector3.right)*10);
          Vector3 center = new Vector3(h,k,0.0f);
          for (int i = 0; i <= resolution; i++) {
              float angle = (float)i / (float)resolution * 2.0f * Mathf.PI;
